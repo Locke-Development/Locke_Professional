@@ -483,34 +483,34 @@ This register decomposes the product into **individual capabilities**, rather th
 | 337 | Verify plan billing invoices | Pending | ? | ? | ? | ? | ? |
 
 ## Integration surfaces and extensibility (24 inspected items)
-**Locke release status:** Complete*. **Code evidence:** `routes/api_keys.js`, `services/api_key_service.js`, `routes/webhooks.js`, `services/webhook_service.js`, `routes/share_links.js`, `routes/word_addin.js`.
+**Locke release status:** Source-implemented. **Code evidence:** `routes/api_keys.js`, `services/api_key_service.js`, `routes/webhooks.js`, `services/webhook_service.js`, `routes/share_links.js`, `routes/word_addin.js`.
 
 | # | Individual feature | Locke status | I | C | A | L | J |
 |---:|---|---|:-:|:-:|:-:|:-:|:-:|
-| 338 | Issue scoped read-only API key | Complete* | P | P | P | P | P |
-| 339 | List issued API keys | Complete* | P | P | P | P | P |
-| 340 | Revoke API key | Complete* | P | P | P | P | P |
-| 341 | Restrict token to GET/HEAD | Complete* | P | P | P | P | P |
-| 342 | Allowlist API-key readable resources | Complete* | P | P | P | P | P |
-| 343 | Create outbound webhook destination | Complete* | ? | ? | ? | ? | ? |
-| 344 | List webhook subscriptions | Complete* | P | P | P | P | P |
-| 345 | Revoke webhook | Complete* | P | P | P | P | P |
-| 346 | Emit contract-created event | Complete* | P | P | P | P | P |
-| 347 | Emit intake-submitted event | Complete* | P | P | P | P | P |
-| 348 | Emit signature-completed event | Complete* | P | P | P | P | P |
-| 349 | Emit renewal-notice-due event | Complete* | P | P | P | P | P |
-| 350 | HMAC-sign webhook payload | Complete* | P | P | P | P | P |
-| 351 | Queue and retry webhook delivery | Complete* | P | P | P | P | P |
-| 352 | Reject private-address/SSRF targets | Complete* | P | P | P | P | P |
-| 353 | Send test webhook | Complete* | P | P | P | P | P |
-| 354 | Generate Microsoft Word add-in manifest | Complete* | P | P | P | P | P |
-| 355 | Exchange authenticated session for add-in token | Complete* | P | P | P | P | P |
-| 356 | Open Word task pane | Complete* | P | P | P | P | P |
-| 357 | Review document from Word | Complete* | P | P | P | P | P |
-| 358 | Insert governed clause in Word | Complete* | P | P | P | P | P |
-| 359 | Save changes into Locke record | Complete* | P | P | P | P | P |
-| 360 | Create revocable external review share-link | Complete* | P | P | P | P | P |
-| 361 | Accept external review comments | Complete* | P | P | P | P | P |
+| 338 | Issue scoped read-only API key | Source-implemented | P | P | P | P | P |
+| 339 | List issued API keys | Source-implemented | P | P | P | P | P |
+| 340 | Revoke API key | Source-implemented | P | P | P | P | P |
+| 341 | Restrict token to GET/HEAD | Source-implemented | P | P | P | P | P |
+| 342 | Allowlist API-key readable resources | Source-implemented | P | P | P | P | P |
+| 343 | Create outbound webhook destination | Source-implemented | ? | ? | ? | ? | ? |
+| 344 | List webhook subscriptions | Source-implemented | P | P | P | P | P |
+| 345 | Revoke webhook | Source-implemented | P | P | P | P | P |
+| 346 | Emit contract-created event | Source-implemented | P | P | P | P | P |
+| 347 | Emit intake-submitted event | Source-implemented | P | P | P | P | P |
+| 348 | Emit signature-completed event | Source-implemented | P | P | P | P | P |
+| 349 | Emit renewal-notice-due event | Source-implemented | P | P | P | P | P |
+| 350 | HMAC-sign webhook payload | Source-implemented | P | P | P | P | P |
+| 351 | Queue and retry webhook delivery | Source-implemented | P | P | P | P | P |
+| 352 | Reject private-address/SSRF targets | Source-implemented | P | P | P | P | P |
+| 353 | Send test webhook | Source-implemented | P | P | P | P | P |
+| 354 | Generate Microsoft Word add-in manifest | Source-implemented | P | P | P | P | P |
+| 355 | Exchange authenticated session for add-in token | Source-implemented | P | P | P | P | P |
+| 356 | Open Word task pane | Source-implemented | P | P | P | P | P |
+| 357 | Review document from Word | Source-implemented | P | P | P | P | P |
+| 358 | Insert governed clause in Word | Source-implemented | P | P | P | P | P |
+| 359 | Save changes into Locke record | Source-implemented | P | P | P | P | P |
+| 360 | Create revocable external review share-link | Source-implemented | P | P | P | P | P |
+| 361 | Accept external review comments | Source-implemented | P | P | P | P | P |
 
 ## Completeness summary
 
